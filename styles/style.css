@@ -228,7 +228,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid salmon; */
+  border: 1px solid salmon;
 }
 
 .change-your-habit-text-container {
@@ -239,7 +239,7 @@ nav {
   justify-content: space-between;
   max-width: 42rem;
   height: 7.8rem;
-  /* border: 1px solid rgb(116, 250, 114); */
+  border: 1px solid rgb(116, 250, 114);
 }
 
 .change-your-habit-text-container h1 {
@@ -261,7 +261,7 @@ nav {
   height: 19.35rem;
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid rgb(175, 114, 250); */
+  border: 1px solid rgb(175, 114, 250);
 }
 
 .change-your-habit-item {
@@ -272,6 +272,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  border: 1px solid rgb(114, 250, 186);
 }
 
 .change-your-habit-item-img-container {
@@ -474,7 +475,7 @@ td {
   width: 100%;
   height: 42%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.5rem;
 }
 
@@ -760,9 +761,10 @@ footer {
   .hero-content h1 {
     width: 18rem;
     height: 8.5rem;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
     font-weight: 900;
     line-height: 125%;
+    margin-bottom: 1rem;
   }
 
   .hero-content p {
@@ -776,7 +778,7 @@ footer {
 
   .shape {
     font-weight: 400;
-    font-size: 4.5rem;
+    font-size: 5rem;
     line-height: 1.2rem;
   }
 
@@ -861,4 +863,129 @@ footer {
   }
   /* Hero Section End */
   /* Header Section End */
+
+  /* Change Your Habits Section Start */
+  .change-your-habit-container {
+    border: 3px solid rgb(139, 9, 0);
+    max-width: 100vw;
+    height: 101rem;
+    justify-content: space-between;
+  }
+
+  .change-your-habit-text-container {
+    max-width: 90%;
+  }
+
+  .change-your-habit-text-container h1 {
+    font-size: 2.5rem;
+  }
+
+  .change-your-habit-item-container {
+    flex-direction: column;
+    max-width: 90%;
+    height: 88rem;
+    align-items: center;
+    border: 2px solid darkcyan;
+  }
+
+  .change-your-habit-item {
+    width: 13rem;
+    height: 19rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Change Your Habits Section End */
+
+  /* Run An Extra Mile Section Start */
+  .run-extra-mile-container {
+    max-width: 89%;
+    height: 44rem;
+    margin: 6rem auto 0;
+    padding: 2rem;
+    background: rgb(34, 34, 34);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid darkcyan;
+  }
+
+  .run-extra-mile-text-container {
+    width: 95%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 1rem;
+    border: 2px solid rgb(139, 0, 97);
+  }
+
+  .run-extra-mile-text-container h1 {
+    font-size: 2.7rem;
+  }
+
+  .run-extra-mile-img-container img {
+    display: none;
+  }
+
+  .run-extra-mile-img-container{
+    background-image: url("../images/run3.jpg");
+    width: 95%;
+    height: 12rem;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .orange-button {
+    height: 4.2rem;
+    width: 98%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+  /* Run An Extra Mile Section End */
+
+  /* BMI Calculator Section Start */
+  .bmi-calculator-container {
+    border: 1px solid darkorange;
+    margin: 6rem auto 0;
+    height: 9rem;
+    max-width: 90%;
+  }
+
+  .bmi-calculator-container h1 {
+    font-size: 2.5rem;
+  }
+  /* BMI Calculator Section End */
+
+  /* BMI Cal & Your BMI Container Section Start */
+  .bmiCal-yourBmi-container {
+    border: 1px solid ghostwhite;
+    width: 100%;
+    height: 100rem;
+  }
+
+  .bmiCal-yourBmi-item-container {
+    width: 90%;
+    height: 100rem;
+    flex-direction: column;
+    border: 1px solid rgb(134, 205, 113);
+  }
+
+  .yourBmi-input-container {
+
+    /* height: 20rem; */
+    width: 90vw;
+    display: grid;
+    background-color: red;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: repeat(5, 1fr); */
+    border: 1px solid rgb(113, 180, 205);
+  
+  }
+  /* BMI Cal & Your BMI Container Section End */
 }
