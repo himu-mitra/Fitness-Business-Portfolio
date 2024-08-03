@@ -14,7 +14,7 @@
     <header>
         <!-- Nav Section Start -->
         <nav>
-            <h1 class="brand-name">Fitness</h1>
+            <h1 class="brand-name"><i>Fitness</i></h1>
             <div class="nav-menu-container">
                 <a class="home-button" href="#">Home</a>
                 <a href="#">Service</a>
@@ -26,11 +26,9 @@
         <!-- Nav Section End -->
 
         <!-- Hero Section Start -->
-        <section class="hero-item-container">
+        <section class="heroSection">
             <div class="hero-content">
-                <h1>Get body in <br>
-                    <span class="shape">shape</span> & stay <br>
-                    healthy
+                <h1>Get body in <span class="shape">shape</span> & stay healthy
                 </h1>
                 <p>
                     A huge selection of health and fitness content, healthy recipes and transformation stories to help
@@ -58,12 +56,10 @@
                         <h1>350+</h1>
                         <p>Video Tutorial</p>
                     </div>
-
                 </div>
             </div>
         </section>
         <!-- Hero Section End -->
-
     </header>
     <!-- Header Section End -->
 
@@ -177,9 +173,14 @@
                         <input type="text" placeholder="Height/cm">
                         <input type="text" placeholder="Weight/kg">
                         <input type="text" placeholder="Age">
-                        <div class="input">Sex<i class="fa-solid fa-angle-down"></i></div>
-                        <div class="input" id="last-child">Select an activity factor<i
-                                class="fa-solid fa-angle-down"></i></div>
+                        <select class="custom-select" name="" id="">
+                            <option value="Sex">Sex</option>
+                            <option value="Mail">Mail</option>
+                            <option value="">Femail</option>
+                        </select>
+                        <select class="custom-select" name="" id="last-child">
+                            <option value="">Select an activity factor</option>
+                        </select>
                     </div>
                     <a class="orange-button" href="#">Calculate</a>
                 </div>
@@ -279,7 +280,7 @@
 
             <div class="copyRight-container">
                 <hr>
-                <br />
+                <!-- <br /> -->
                 <p>All right reserved @Fitness 2024</p>
             </div>
         </section>
