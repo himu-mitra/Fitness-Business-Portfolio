@@ -102,7 +102,7 @@ nav {
 
 /* Hero Section Start */
 .heroSection {
-  max-width: 65.25rem;
+  max-width: 66.25rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -293,7 +293,7 @@ nav {
 /* Run An Extra Mile Section Start */
 .run-extra-mile-container {
   max-width: 66.25rem;
-  margin: 5rem auto 0;
+  margin: 6rem auto 0;
   padding: 2rem;
   background: rgb(34, 34, 34);
   border-radius: 1rem;
@@ -365,7 +365,7 @@ nav {
   max-width: 90rem;
   background: rgb(34, 34, 34);
   margin: 6rem auto 0;
-  padding: 3rem 1rem;
+  padding: 3rem 1.3rem;
 }
 
 .bmiCal-yourBmi-item-container {
@@ -479,10 +479,10 @@ td {
 
 /* Meet Our Team Section Start */
 .meetOurTeam-container {
-  max-width: 67.25rem;
+  max-width: 66.25rem;
   margin: 6rem auto 0;
   border-radius: 1rem;
-  padding: 0 1rem;
+  padding: 0 1.3rem;
 }
 
 .meetOurTeam-text-container {
@@ -581,6 +581,7 @@ td {
   padding: 1rem;
   letter-spacing: 0.05rem;
   margin-top: 2rem;
+  /* margin: 2rem 0.1rem; */
 }
 
 .access-payment-container {
@@ -642,7 +643,7 @@ td {
 /* Footer Section Start */
 footer {
   max-width: 90rem;
-  padding: 4rem 1rem 3rem;
+  padding: 4rem 1.3rem 3rem;
   background: rgba(255, 255, 255, 0.1);
   margin: 6rem auto 0;
 }
@@ -721,7 +722,7 @@ footer {
 @media screen and (max-width: 576px) {
   /* Header Section Start */
   header {
-    padding: 0 1rem;
+    padding: 0 1.2rem;
     width: 100vw;
     margin: 0 auto;
     background: linear-gradient(
@@ -882,7 +883,7 @@ footer {
 
   /* Run An Extra Mile Section Start */
   .run-extra-mile-container {
-    max-width: 89%;
+    max-width: 90vw;
     margin: 3rem auto;
     background: rgb(34, 34, 34);
     align-items: center;
@@ -923,8 +924,8 @@ footer {
 
   /* BMI Calculator Section Start */
   .bmi-calculator-container {
-    margin: 5rem auto 0;
-    max-width: 90%;
+    padding: 0rem;
+    max-width: 90vw;
   }
 
   .bmi-calculator-container h1 {
@@ -936,13 +937,10 @@ footer {
   .bmiCal-yourBmi-container {
     max-width: 100vw;
     margin-top: 5rem;
-    /* padding: 0; */
   }
 
   .bmiCal-yourBmi-item-container {
-    width: 90%;
     flex-direction: column;
-    margin: 0 auto;
   }
 
   .yourBmi-container {
@@ -967,7 +965,6 @@ footer {
 
   .meetOurTeam-text-container {
     width: 90%;
-    margin-bottom: 3rem;
   }
 
   .meetOurTeam-text-container h1 {
@@ -1002,6 +999,7 @@ footer {
 
   .limited-availablity {
     margin-top: 2rem;
+    width: 92vw;
   }
 
   .payment-container {
@@ -1014,10 +1012,6 @@ footer {
   /* Footer Section Start */
   footer {
     width: 100vw;
-  }
-
-  .footer-container {
-    width: 90%;
   }
 
   .fitnessGetStart-container {
