@@ -3,32 +3,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @import url("https://fonts.cdnfonts.com/css/miama");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  /* border: 1px solid red; */
 }
-
-/* 
-.outerbox {
-  width: 25rem;
-  height: 15rem;
-  border: 2px solid darkblue;
-  display: flex;
-  justify-content: space-between;
-}
-
-.innerbox {
-  width: 5rem;
-  height: 5rem;
-  border: 2px solid rgb(0, 139, 139);
-} */
 
 body {
   background-color: black;
-  /* padding: 0 1rem; */
+  /* border: 3px dashed green; */
 }
 
 /* Shared Items Start */
@@ -58,9 +43,7 @@ body {
 /* Header Section Start */
 header {
   padding: 0 5rem;
-  border: 1px solid rgb(252, 252, 252);
   max-width: 90rem;
-  /* height: 44.5rem; */
   margin: 0 auto;
   background: linear-gradient(
     180deg,
@@ -79,14 +62,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 1px solid seashell; */
 }
 
 .brand-name {
   color: var(--theme-color-orange);
   font-size: 2.5rem;
   font-weight: 800;
-  
 }
 
 .nav-menu-container {
@@ -120,24 +101,16 @@ nav {
 /* Nav Section End */
 
 /* Hero Section Start */
-
 .heroSection {
   max-width: 65.25rem;
   margin: 0 auto;
-  border: 2px solid rgb(237, 91, 47);
   display: flex;
   justify-content: space-between;
 }
 
 .hero-content {
-  border: 2px solid rgb(0, 139, 37);
   max-width: 50%;
   margin-top: 4.5rem;
-  /* height: 27.5rem; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-self: center; */
-  /* justify-content: space-between; */
 }
 
 .hero-content h1 {
@@ -168,19 +141,14 @@ nav {
   flex-direction: row;
   gap: 2rem;
   margin-top: 2.1rem;
-  border: 1px solid firebrick;
 }
 
 .hero-img-container {
   position: relative;
-  /* max-width: 21.5rem; */
-  /* height: 36.25rem; */
   align-self: flex-end;
-  border: 1px solid darkgoldenrod;
 }
 
 .hero-img-container img {
-  /* height: 100%; */
   width: 100%;
 }
 
@@ -219,7 +187,6 @@ nav {
   left: -6rem;
   bottom: 4.5rem;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -246,32 +213,19 @@ nav {
   margin-top: 0.2rem;
   color: var(--dark-white);
   font-size: 0.9rem;
-  /* margin-right: 0.5rem; */
 }
 
 /* Change Your Habits Section Start */
 .change-your-habit-container {
   max-width: 65.25rem;
-  /* height: 31rem; */
   margin: 6rem auto;
   padding: 0 1rem;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
-  border: 1px solid salmon;
 }
 
 .change-your-habit-text-container {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
   text-align: center;
   margin: 0 auto;
-  /* justify-content: space-between; */
   max-width: 42rem;
-  /* height: 7.8rem; */
-  border: 1px solid rgb(116, 250, 114);
 }
 
 .change-your-habit-text-container h1 {
@@ -291,30 +245,23 @@ nav {
 
 .change-your-habit-item-container {
   width: 100%;
-  /* height: 19.35rem; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
   column-gap: 5rem;
   row-gap: 3rem;
-  margin: 2rem auto; 
-  /* justify-content: space-between; */
-  border: 1px solid rgb(175, 114, 250);
-  /* grid-auto-flow: dense; */
+  margin: 2rem auto;
 }
 
 .change-your-habit-item {
   width: 100%;
-  /* height: 100%; */
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid rgb(250, 114, 114);
 }
 
 .change-your-habit-item-img-container {
-  /* height: 65%; */
   width: 95%;
   border: 0.3rem solid rgb(25, 22, 22);
   border-radius: 50%;
@@ -346,25 +293,19 @@ nav {
 /* Run An Extra Mile Section Start */
 .run-extra-mile-container {
   max-width: 66.25rem;
-  /* height: 23.5rem; */
   margin: 5rem auto 0;
   padding: 2rem;
   background: rgb(34, 34, 34);
   border-radius: 1rem;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  border: 1px solid rgb(139, 9, 0);
 }
 
 .run-extra-mile-text-container {
   max-width: 45%;
-  /* height: 92%; */
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   margin-left: 1rem;
-  border: 1px solid rgb(69, 139, 0);
 }
 
 .run-extra-mile-text-container h1 {
@@ -386,7 +327,6 @@ nav {
 
 .run-extra-mile-img-container {
   width: 35%;
-  /* height: 100%; */
   border-radius: 1rem;
 }
 
@@ -399,14 +339,9 @@ nav {
 
 /* BMI Calculator Section Start */
 .bmi-calculator-container {
-  border: 1px solid darkorange;
   margin: 6rem auto 0;
   padding: 0rem 1rem;
-  /* height: 7.5rem; */
   max-width: 43rem;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
 }
 
 .bmi-calculator-container h1 {
@@ -423,42 +358,26 @@ nav {
   letter-spacing: 0.02rem;
   margin-top: 0.5rem;
 }
-
 /* BMI Calculator Section End */
 
 /* BMI Cal & Your BMI Container Section Start */
 .bmiCal-yourBmi-container {
   max-width: 90rem;
-  /* height: 30rem; */
   background: rgb(34, 34, 34);
   margin: 6rem auto 0;
-  /* padding-top: 2rem; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  border: 1px solid rgb(113, 182, 205);
   padding: 3rem 1rem;
 }
 
 .bmiCal-yourBmi-item-container {
   max-width: 66.25rem;
-  /* height: 90%; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgb(205, 113, 113);
-
 }
 
 .bmiChart-container {
-  /* height: 19rem; */
   max-width: 33%;
   min-width: 15rem;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  border: 1px solid rgb(205, 197, 113);
-
 }
 
 .bmiChart-container h1 {
@@ -473,7 +392,6 @@ nav {
   height: 14rem;
   border-collapse: collapse;
   table-layout: fixed;
-  border: 1px solid darkcyan;
   margin-top: 2.5rem;
 }
 
@@ -482,7 +400,6 @@ td {
   border: 1px solid rgba(255, 255, 255, 0.1);
   text-align: left;
   padding-left: 1rem;
-  /* height: 1%; */
 }
 
 .bmiChart-container table th {
@@ -498,27 +415,17 @@ td {
 }
 
 .yourBmi-container {
-  /* height: 95%; */
   max-width: 53%;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  border: 1px solid seashell;
 }
 
 .yourBmi-text-container {
   width: 100%;
-  /* height: 24%; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
 }
 
 .yourBmi-text-container h1 {
   color: var(--secondary-color-white);
   font-size: 2rem;
   font-weight: 900;
-  /* margin-bottom: 0.5rem; */
 }
 
 .yourBmi-text-container p {
@@ -528,17 +435,14 @@ td {
   line-height: 1.3rem;
   letter-spacing: 0.02rem;
   margin-top: 0.7rem;
-
 }
 
 .yourBmi-input-container {
   max-width: 100%;
-  /* height: 42%; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.6rem;
   margin: 2rem 0;
-  /* position: relative; */
 }
 
 #last-child {
@@ -561,44 +465,30 @@ td {
   align-items: center;
   min-width: 0rem;
   height: 3.5rem;
-  /* margin-top: 0.5rem; */
 }
 
-.custom-select{
-  /* position: absolute; */
+.custom-select {
   padding-right: 1rem;
   border-right: 1rem solid rgba(70, 70, 70, 0.1);
-  
-  /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
 ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
-
 /* BMI Cal & Your BMI Container Section End */
 
 /* Meet Our Team Section Start */
 .meetOurTeam-container {
   max-width: 67.25rem;
-  /* height: 48.5rem; */
   margin: 6rem auto 0;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
   border-radius: 1rem;
   padding: 0 1rem;
 }
 
 .meetOurTeam-text-container {
-  /* height: 15%; */
   width: 68%;
   margin: 0 auto;
   text-align: center;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
 
 .meetOurTeam-text-container h1 {
@@ -614,17 +504,13 @@ td {
   line-height: 1.5rem;
   letter-spacing: 0.02rem;
   margin: 1rem 0 4rem;
-  /* text-align: center; */
 }
 
 .meetOurTeam-img-container {
-  /* height: 75%; */
   width: 100%;
   margin: 0 auto;
   display: grid;
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(16rem, 3fr));
-  /* grid-template-rows: repeat(2, 1fr); */
   border-radius: 1rem;
   gap: 1.2rem;
   padding: 1.2rem;
@@ -636,9 +522,7 @@ td {
   width: 100%;
   object-fit: cover;
   background-repeat: no-repeat;
-  /* background-size: cover; */
   border-radius: 1rem;
-  /* background-position: right; */
   background-color: black;
   opacity: 0.8;
 }
@@ -667,41 +551,115 @@ td {
   line-height: 1.5rem;
   letter-spacing: 0.03rem;
 }
-
 /* Meet Our Team Section End */
+
+/* Unique Section Start */
+/* Membership Offer Section Start */
+.Membership-Offer-Container {
+  max-width: 64.25rem;
+  margin: 5rem auto;
+  position: relative;
+  padding: 1rem;
+}
+
+.Membership-Offer-Container > fieldset > legend {
+  font-size: 3.2rem;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  color: var(--secondary-color-white);
+  text-align: center;
+}
+
+.limited-availablity {
+  font-size: 1.8rem;
+  font-weight: 200;
+  background-color: var(--secondary-color-white);
+  width: 101%;
+  position: absolute;
+  left: -0.3rem;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 0.05rem;
+  margin-top: 2rem;
+}
+
+.access-payment-container {
+  display: flex;
+  margin-top: 9.5rem;
+}
+
+.access-container {
+  color: var(--secondary-color-white);
+}
+
+.access-container ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.access-container ul li {
+  margin: 1.5rem;
+}
+
+.right {
+  color: var(--theme-color-orange);
+}
+
+.payment-container {
+  margin-top: 4rem;
+  margin-left: 5rem;
+  color: var(--secondary-color-white);
+}
+
+.payment-container h2 {
+  font-size: 2.1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.discunt {
+  color: var(--theme-color-orange);
+  font-size: 1.5rem;
+}
+
+.payment-container p {
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 1.3rem;
+}
+
+.another-button {
+  margin: 4rem auto 0;
+  width: 20rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+/* Membership Offer Section End */
+/* Unique Section End */
+
 
 /* Footer Section Start */
 footer {
   max-width: 90rem;
   padding: 4rem 1rem 3rem;
-  /* height: 31rem; */
   background: rgba(255, 255, 255, 0.1);
   margin: 6rem auto 0;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: flex-end; */
 }
 
 .footer-container {
   margin: 0 auto;
   max-width: 66.25rem;
-  /* height: 90%; */
-  border: 1px solid firebrick;
 }
 
 .fitnessGetStart-container {
   max-width: 100%;
-  /* height: 75%; */
   display: flex;
   justify-content: space-between;
-  /* padding-top: 0.5rem; */
-  border: 1px solid rgb(34, 132, 178);
 }
 
 .fitnessText-container {
   max-width: 40%;
-  /* height: 100%; */
-  border: 1px solid rgb(34, 132, 178);
 }
 
 .fitnessText-container h1 {
@@ -721,16 +679,8 @@ footer {
 
 .getStart-container {
   width: 50%;
-  /* height: 100%; */
   display: flex;
   justify-content: space-between;
-  border: 1px solid rgb(34, 132, 178);
-}
-
-.getStart {
-  /* max-width: 50%; */
-  /* height: 100%; */
-  /* border: 1px solid seagreen; */
 }
 
 .getStart h2 {
@@ -748,18 +698,8 @@ footer {
   list-style-type: none;
 }
 
-.two {
-  /* margin-left: 10rem; */
-}
-
 .copyRight-container {
-  /* width: 100%; */
-  /* height: 18%; */
-  /* display: flex; */
-  /* flex-direction: column; */
   text-align: center;
-  /* margin: 0 auto; */
-  /* justify-content: space-between; */
 }
 
 .copyRight-container hr {
@@ -778,20 +718,11 @@ footer {
 /* Footer Section End */
 
 /* responsive media queries for small devices (576px) */
-
-@media screen and (max-width: 576px) { 
-
+@media screen and (max-width: 576px) {
   /* Header Section Start */
-
-  *{
-    border: 1px solid rgb(47, 233, 14);
-
-  }
-
   header {
     padding: 0 1rem;
     width: 100vw;
-    /* height: 68.5rem; */
     margin: 0 auto;
     background: linear-gradient(
       180deg,
@@ -800,16 +731,11 @@ footer {
       rgba(231, 243, 246, 0.12),
       rgba(0, 0, 0, 0.1)
     );
-    border: 4px solid rgb(233, 14, 211);
   }
 
   /* Nav Section Start */
   nav {
-    /* max-width: 90%; */
-    /* max-width: 90ww; */
-    border: 1px solid rgb(225, 250, 114);
     margin: 0 auto;
-    /* align-self: center; */
   }
 
   .nav-menu-container {
@@ -823,26 +749,15 @@ footer {
 
   /* Hero Section Start */
   .heroSection {
-    /* width: 90%; */
-    /* height: 61rem; */
-    /* display: flex; */
     flex-direction: column;
-    /* justify-content: space-between; */
-    /* align-items: end; */
-    border: 1px solid rgb(46, 119, 139);
   }
 
   .hero-content {
     max-width: 95%;
-    /* height: 21rem; */
-    border: 1px solid seagreen;
-    /* align-self: flex-start; */
   }
 
   .hero-content h1 {
     max-width: 85%;
-    /* max-width: 18rem; */
-    /* height: 8.5rem; */
     font-size: 2.4rem;
     font-weight: 900;
     line-height: 125%;
@@ -851,17 +766,11 @@ footer {
 
   .hero-content p {
     max-width: 85%;
-    /* max-width: 17rem; */
-    /* height: 6rem; */
     font-size: 0.9rem;
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0.03rem;
   }
-
-  /* .hero-content-button-container {
-    max-width: 100%;
-  } */
 
   .hero-content-button-container > .orange-button {
     width: 11rem;
@@ -881,11 +790,7 @@ footer {
   }
 
   .hero-img-container {
-    /* max-width: 22rem; */
-    /* max-width: 15rem; */
-    /* max-height: 36.75rem; */
     margin-top: 2rem;
-    border: 1px solid seagreen;
     align-self: center;
   }
 
@@ -962,17 +867,8 @@ footer {
 
   /* Change Your Habits Section Start */
   .change-your-habit-container {
-    border: 3px solid rgb(139, 9, 0);
     max-width: 90vw;
-    /* height: 100rem; */
-    /* justify-content: space-between; */
     margin-top: 4rem;
-  }
-
-  .change-your-habit-text-container {
-    /* height: 8.5rem; */
-    /* max-width: 90%; */
-
   }
 
   .change-your-habit-text-container h1 {
@@ -980,49 +876,22 @@ footer {
   }
 
   .change-your-habit-item-container {
-    /* flex-direction: column; */
-    /* max-width: 90%; */
-    /* height: 88rem; */
-    /* align-items: center; */
     padding: 0 3rem;
-    border: 2px solid darkcyan;
   }
-
-  /* .change-your-habit-item {
-    width: 13rem;
-    height: 19rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-  }  */
   /* Change Your Habits Section End */
 
   /* Run An Extra Mile Section Start */
   .run-extra-mile-container {
     max-width: 89%;
-    /* height: 37rem; */
     margin: 3rem auto;
-    /* padding: 1.5rem; */
     background: rgb(34, 34, 34);
-    /* border-radius: 1rem; */
-    /* display: flex; */
-    flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
-    border: 2px solid darkcyan;
+    flex-direction: column;
   }
 
   .run-extra-mile-text-container {
     max-width: 95%;
-    /* height: 20rem; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: space-between; */
-    /* margin-right: 1rem; */
     margin-left: 0rem;
-    border: 2px solid rgb(139, 0, 97);
   }
 
   .run-extra-mile-text-container h1 {
@@ -1033,12 +902,11 @@ footer {
     display: none;
   }
 
-  .run-extra-mile-img-container{
+  .run-extra-mile-img-container {
     background-image: url("../images/run3.jpg");
     width: 95%;
     height: 12rem;
-    /* height: 100%; */
-    margin-top: 1.5rem;
+    margin-top: 1.9rem;
     border-radius: 1rem;
     background-size: cover;
     background-position: center;
@@ -1055,9 +923,7 @@ footer {
 
   /* BMI Calculator Section Start */
   .bmi-calculator-container {
-    border: 1px solid darkorange;
     margin: 5rem auto 0;
-    /* height: 9rem; */
     max-width: 90%;
   }
 
@@ -1068,37 +934,24 @@ footer {
 
   /* BMI Cal & Your BMI Container Section Start */
   .bmiCal-yourBmi-container {
-    border: 1px solid rgb(36, 231, 18);
     max-width: 100vw;
-    /* height: 58rem; */
     margin-top: 5rem;
     padding: 0;
-    /* padding-bottom: 2rem; */
   }
 
   .bmiCal-yourBmi-item-container {
     width: 90%;
     flex-direction: column;
-    border: 1px solid rgb(205, 113, 185);
-    /* margin-top: 3rem; */
     margin: 0 auto;
   }
 
   .yourBmi-container {
     max-width: 100%;
-    /* height: 26rem; */
-    border: 1px solid seashell;
     margin-top: 3rem;
-
   }
 
   .bmiChart-container {
     max-width: 90%;
-  }
-
-  .yourBmi-input-container {
-    /* max-width: 100%; */
-    border: 1px solid rgb(159, 113, 205);
   }
 
   .yourBmi-input-container input,
@@ -1109,14 +962,11 @@ footer {
 
   /* Meet Our Team Section Start */
   .meetOurTeam-container {
-    border: 1px solid blanchedalmond;
     max-width: 90%;
-    /* height: 100rem; */
     margin-top: 3rem;
   }
 
   .meetOurTeam-text-container {
-    border: 1px solid rgb(241, 153, 21);
     width: 90%;
     margin-bottom: 3rem;
   }
@@ -1127,34 +977,48 @@ footer {
 
   .meetOurTeam-img-container {
     grid-template-columns: 1fr;
-    /* object-fit: cover; */
-    /* height: 69rem; */
   }
 
   .oneImg {
     height: 22rem;
-    /* object-fit: ; */
-    /* background-position-y: top; */
-  }
-
-  .oneImg img {
-    /* background-position: bottom; */
-    /* object-fit: cover; */
   }
   /* Meet Our Team Section End */
 
+  /* Unique Section Start */
+  /* Membership Offer Section Start */
+  .Membership-Offer-Container {
+    max-width: 90vw;
+    padding: 0rem;
+  }
+
+  .Membership-Offer-Container > fieldset > legend {
+    font-size: 2.8rem;
+    color: var(--secondary-color-white);
+  }
+
+  .access-payment-container  {
+    flex-direction: column;
+    margin-top: 11.5rem;
+  }
+
+  .limited-availablity {
+    margin-top: 2rem;
+  }
+
+  .payment-container {
+    margin-left: 0rem;
+  }
+
+  /* Membership Offer Section End */
+  /* Unique Section End */
+
   /* Footer Section Start */
   footer {
-    /* height: 100rem; */
     width: 100vw;
   }
 
   .footer-container {
     width: 90%;
-    /* height: 100%; */
-    border: 1px solid firebrick;
-    /* flex-direction: column; */
-
   }
 
   .fitnessGetStart-container {
@@ -1163,43 +1027,23 @@ footer {
 
   .fitnessText-container {
     max-width: 90%;
-    /* height: 16rem; */
-    border: 1px solid palevioletred;
-  }
-
-  .fitnessText-container h1 {
-    /* font-size: 3rem; */
   }
 
   .getStart-container {
     flex-direction: column;
     width: 90%;
-    border: 1px solid rgb(46, 125, 139);
-    /* margin-left: 0px; */
   }
 
   .getStart {
-    /* max-width: 80%; */
-    /* height: 18rem; */
-    border: 1px solid seagreen;
-    /* align-self: flex-start; */
     margin-top: 2rem;
   }
 
   .getStart h2 {
-
-    /* font-size: 1.5rem; */
     font-weight: 700;
-
   }
 
   .two {
     margin-left: 0rem;
-  }
-
-  .copyRight-container {
-    /* width: 90%; */
-    border: 1px solid rgb(139, 130, 46);
   }
   /* Footer Section End */
 }
