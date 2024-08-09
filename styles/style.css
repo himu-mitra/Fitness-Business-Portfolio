@@ -756,6 +756,7 @@ footer {
 
   .hero-content {
     max-width: 95%;
+    margin-top: 1.8rem;
   }
 
   .hero-content h1 {
@@ -763,7 +764,6 @@ footer {
     font-size: 2.4rem;
     font-weight: 900;
     line-height: 125%;
-    margin-bottom: 1rem;
   }
 
   .hero-content p {
@@ -772,6 +772,11 @@ footer {
     font-weight: 400;
     line-height: 1.5rem;
     letter-spacing: 0.03rem;
+    margin-top: 2rem;
+  }
+
+  .hero-content-button-container {
+    margin-top: 2rem;
   }
 
   .hero-content-button-container > .orange-button {
