@@ -111,7 +111,6 @@ nav {
 .hero-content {
   max-width: 50%;
   margin-top: 3rem;
-  border: 1px solid forestgreen;
 }
 
 .hero-content h1 {
@@ -119,6 +118,7 @@ nav {
   font-size: 4.5rem;
   font-weight: 800;
   letter-spacing: 0.06rem;
+  line-height: 5.6rem;
 }
 
 .shape {
