@@ -582,7 +582,6 @@ td {
   padding: 1rem;
   letter-spacing: 0.05rem;
   margin-top: 2rem;
-  /* margin: 2rem 0.1rem; */
 }
 
 .access-payment-container {
@@ -998,14 +997,16 @@ footer {
     color: var(--secondary-color-white);
   }
 
+  .limited-availablity {
+    margin-top: 2.5rem;
+    width: 92vw;
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+
   .access-payment-container  {
     flex-direction: column;
     margin-top: 11.5rem;
-  }
-
-  .limited-availablity {
-    margin-top: 2rem;
-    width: 92vw;
   }
 
   .payment-container {
