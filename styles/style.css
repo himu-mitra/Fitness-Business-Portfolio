@@ -110,7 +110,8 @@ nav {
 
 .hero-content {
   max-width: 50%;
-  margin-top: 4.5rem;
+  margin-top: 3rem;
+  border: 1px solid forestgreen;
 }
 
 .hero-content h1 {
@@ -133,14 +134,14 @@ nav {
   font-weight: 400;
   line-height: 1.5rem;
   letter-spacing: 0.05rem;
-  margin-top: 2.1rem;
+  margin-top: 2.5rem;
 }
 
 .hero-content-button-container {
   display: flex;
   flex-direction: row;
   gap: 2rem;
-  margin-top: 2.1rem;
+  margin-top: 2.5rem;
 }
 
 .hero-img-container {
@@ -185,7 +186,7 @@ nav {
 .container350 {
   position: absolute;
   left: -6rem;
-  bottom: 4.5rem;
+  bottom: 5rem;
   display: flex;
   align-items: center;
 }
